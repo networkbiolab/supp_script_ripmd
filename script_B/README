@@ -1,0 +1,8 @@
+Script Written by Jose-Antonio Garate (jgarate@dlab.cl)
+
+This script take the MD2 dynamics and reference frame and return the closing event defined by the collective variable defined as
+
+D= (1/N) Sum (COMB_n -COM_MD2)**(1/2)
+
+The COM_bsheet.tcl script requires 3 variables  to be inputed.
+For example, vmd -dispdev text -e path/to/COM_bsheet.tcl -args path/to/inputpsf path/to/inputdcd path/to/reference_pdb

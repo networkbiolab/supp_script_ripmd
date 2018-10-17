@@ -1,0 +1,6 @@
+simple script that count the number of interactions between differents chains of the GJC. 
+It take as input the "consensus_as_list" file (given as result of RIP-MD analysis; located in Graph folder) and then, for each subunit look for interactions between these subunits and report it
+
+To run this script, execute the following command in a terminal (note that you need to have the consensus_as_list in the same folder than the script)
+
+python count_interactions_type_chain.py

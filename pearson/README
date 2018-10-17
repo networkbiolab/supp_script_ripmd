@@ -1,0 +1,2 @@
+script that take as input the file where nodes are defined (given by RIP-MD as the "nodes" file), the pearson matrix (given by RIP-MD when you compute it for pearson correlations; It is located on the correlation folder, as example we provide the hb_hb for the MD2 dynemics in the open state), and a value "v" that the user defined.
+absolute value for Pearson correlations between two nodes higher than "v" are reported
